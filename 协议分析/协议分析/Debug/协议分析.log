@@ -1,0 +1,27 @@
+﻿生成启动时间为 2016/4/21 15:37:38。
+     1>项目“E:\C\协议分析\协议分析\协议分析.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D WPCAP /D HAVE_REMOTE /D _USING_V110_SDK71_ /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\c\协议分析\协议分析\main.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\c\协议分析\协议分析\main.cpp(303): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(283) : 参见“scanf”的声明
+     1>e:\c\协议分析\协议分析\main.cpp(282): warning C4101: “timestr”: 未引用的局部变量
+     1>e:\c\协议分析\协议分析\main.cpp(277): warning C4101: “res”: 未引用的局部变量
+     1>e:\c\协议分析\协议分析\main.cpp(285): warning C4101: “th”: 未引用的局部变量
+     1>e:\c\协议分析\协议分析\main.cpp(280): warning C4101: “local_tv_sec”: 未引用的局部变量
+     1>e:\c\协议分析\协议分析\main.cpp(283): warning C4101: “sport”: 未引用的局部变量
+     1>e:\c\协议分析\协议分析\main.cpp(283): warning C4101: “dport”: 未引用的局部变量
+     1>e:\c\协议分析\协议分析\main.cpp(281): warning C4101: “ltime”: 未引用的局部变量
+     1>e:\c\协议分析\协议分析\main.cpp(279): warning C4101: “pkt_data”: 未引用的局部变量
+     1>e:\c\协议分析\协议分析\main.cpp(278): warning C4101: “header”: 未引用的局部变量
+     1>e:\c\协议分析\协议分析\main.cpp(267): warning C4101: “packet”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C\协议分析\Debug\协议分析.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\C\协议分析\Debug\协议分析.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C\协议分析\Debug\协议分析.lib" /MACHINE:X86 wpcap.lib ws2_32.lib Packet.lib iphlpapi.lib "Debug\winpcap-getmac.obj"
+         Debug\main.obj
+         协议分析.vcxproj -> E:\C\协议分析\Debug\协议分析.exe
+     1>已完成生成项目“E:\C\协议分析\协议分析\协议分析.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.87
